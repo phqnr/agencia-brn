@@ -46,6 +46,7 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   padding: 0 30px;
+  font-size: 18px;
 }
 
 header .btn-contato button {
@@ -61,3 +62,5 @@ header .btn-contato button {
 header .btn-contato button:hover {
   box-shadow: 0px 0px 8px #00ff085d;
 }
+
+/* ESTILO MAIN SECTION */
