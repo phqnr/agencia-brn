@@ -85,7 +85,7 @@ header nav ul li {
 
 /* ESTILO MAIN SECTION */
 section.topo-site {
-  padding: 8rem 4%;
+  padding: 4.5rem 4%;
 }
 
 section .topo-site .flex {
@@ -136,6 +136,7 @@ section.topo-site .txt-topo-site h1 {
 /* ESTILO ESPECIALIDADES */
 section.especialidades {
   padding: 8rem 4%;
+  box-shadow: 0px 0px 40px 5px #ffffff1a;
 }
 
 section.especialidades .flex {
@@ -197,7 +198,7 @@ section.sobre .flex {
   text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
+.btn-social button {
   width: 60px;
   height: 60px;
   border-radius: 99px;
@@ -333,4 +334,58 @@ button:hover,
 form .btn-enviar input:hover {
   box-shadow: 1px 1px 8px #00ff085d;
   transform: scale(1.08);
+}
+
+/* ESTILO FOOTER */
+
+footer {
+  padding: 8rem 4%;
+  box-shadow: 0px 0px 40px 5px #ffffff1a;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 1.75rem 0;
+}
+
+.border {
+  border-top: 3px solid #00FF08;
+}
+
+footer .line-footer p i {
+  color: #00FF08;
+  font-size: 2rem;
+}
+
+footer .line-footer p a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: .75rem;
+}
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width:1020px) {
+
+  /* classes gerais */
+  .flex {
+    flex-direction: column;
+  }
+
+  .topo-site,
+  .flex {
+    flex-direction: column-reverse;
+  }
+
+  /* header */
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
+
+
 }
