@@ -429,6 +429,18 @@ footer .line-footer p a {
   margin-left: .75rem;
 }
 
+/*  EFEITO REVEAL :: sempre lembrar de esconder a visibilidade dos itens*/
+.efeito-txt-topo,
+.efeito-img-topo,
+.titulo,
+.box1,
+.box2,
+.box3,
+.img-sobre,
+.txt-sobre {
+  visibility: hidden;
+}
+
 
 /* RESPONSIVIDADE */
 @media screen and (max-width:1020px) {

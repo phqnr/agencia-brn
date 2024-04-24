@@ -20,6 +20,9 @@
   <!-- SCRIPT JS -->
   <script src="index.js" defer></script>
 
+  <!-- SCROLL REVEAL -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
   <title>Agência BRN</title>
 </head>
 
@@ -31,7 +34,7 @@
           <img src="images/logo.png" alt="Logo da agência BRN">
         </a>
       </div>
-      <nav class="menu-desktop">
+      <nav class="menu-desktop"> <!-- menu-desktop -->
         <ul>
           <li><a href="index.html">Início</a></li>
           <li><a href="#especialidades">Especialidades</a></li>
@@ -40,22 +43,22 @@
         </ul>
       </nav> <!-- menu-desktop -->
 
-      <div class="btn-contato">
+      <div class="btn-contato"> <!-- btn-contato  -->
         <a href="#contato">
           <button>Contato</button>
         </a>
       </div> <!-- btn-contato  -->
 
-      <div class="btn-abrir-menu" id="btn-menu">
+      <div class="btn-abrir-menu" id="btn-menu"> <!-- abrir menu mobile -->
         <i class="bi bi-list"></i>
-      </div>
+      </div> <!-- btn-abrir-menu -->
 
-      <div class="menu-mobile" id="menu-mobile">
-        <div class="btn-fechar" id="btn-fechar">
+      <div class="menu-mobile" id="menu-mobile"> <!-- menu-mobile -->
+        <div class="btn-fechar" id="btn-fechar"> <!-- botão de fechar menu-mobile -->
           <i class="bi bi-x-lg"></i>
         </div>
 
-        <nav>
+        <nav> <!-- nav do menu-mobile -->
           <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="#especialidades">Especialidades</a></li>
@@ -65,7 +68,7 @@
           </ul>
         </nav>
       </div> <!-- menu-mobile -->
-      <div class="overlay-menu" id="overlay-menu">
+      <div class="overlay-menu" id="overlay-menu"> <!-- overlay-menu -->
       </div> <!-- overlay-menu -->
     </div> <!-- interface -->
   </header>
@@ -74,18 +77,19 @@
     <section class="topo-site">
       <div class="interface">
         <div class="flex">
-          <div class="txt-topo-site">
+          <div class="txt-topo-site efeito-txt-topo">
             <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
             <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design inovador, funcionalidade
               intuitiva e otimização para resultados, estou pronto(a) para criar a presença online dos seus sonhos.
             </p>
+
             <div class="btn-contato">
               <a href="#">
                 <button>Entre em contato</button>
               </a>
             </div> <!-- btn-contato -->
           </div> <!-- txt-topo-site -->
-          <div class="img-topo-site">
+          <div class="img-topo-site efeito-img-topo">
             <img src="/images/pessoa.png" alt="Pessoa sorrindo">
           </div> <!-- img-topo-site -->
         </div> <!-- flex -->
@@ -96,21 +100,23 @@
       <div class="interface">
         <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
         <div class="flex">
-          <div class="especialidades-box">
+          <div class="especialidades-box box1">
             <i class="bi bi-code-square"></i>
             <h3>Website</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quasi quas cupiditate quaerat, eaque
               aspernatur tenetur ut labore incidunt optio fugit unde sapiente ratione repellat deserunt fugiat. Vitae,
               nobis laborum?</p>
           </div> <!-- especialidades-box -->
-          <div class="especialidades-box">
+
+          <div class="especialidades-box box2">
             <i class="bi bi-cart"></i>
             <h3>Loja online</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quasi quas cupiditate quaerat, eaque
               aspernatur tenetur ut labore incidunt optio fugit unde sapiente ratione repellat deserunt fugiat. Vitae,
               nobis laborum?</p>
           </div> <!-- especialidades-box -->
-          <div class="especialidades-box">
+
+          <div class="especialidades-box box3">
             <i class="bi bi-wordpress"></i>
             <h3>Blog</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quasi quas cupiditate quaerat, eaque
@@ -124,10 +130,11 @@
     <section class="sobre" id="sobre">
       <div class="interface">
         <div class="flex">
-          <div class="img-sobre">
+          <div class="img-sobre reveal-img-sobre">
             <img src="images/foto.png" alt="Eu">
           </div> <!-- img-sobre -->
-          <div class="txt-sobre">
+
+          <div class="txt-sobre reveal-txt-sobre">
             <h2>MUITO PRAZER, <span>SOU PAULO HENRIQUE.</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel hic quaerat dolorem sint doloribus commodi
               nesciunt, voluptates debitis veniam repellat blanditiis, iusto nostrum iste dolores nihil voluptate
