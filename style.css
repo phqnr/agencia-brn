@@ -49,7 +49,7 @@ h2.titulo span {
 }
 
 
-/* ESTILO DO CABEÇALHO */
+/* ESTILO HEADER */
 header {
   padding: 5rem 4%;
 }
@@ -86,6 +86,7 @@ header nav.menu-desktop ul li {
 .btn-abrir-menu i {
   color: #00FF08;
   font-size: 2.5rem;
+  display: none;
 }
 
 .menu-mobile {
@@ -98,6 +99,7 @@ header nav.menu-desktop ul li {
   width: 0%;
   overflow: hidden;
   transition: .5s;
+  display: none;
 }
 
 .menu-mobile.abrir-menu {
@@ -146,7 +148,7 @@ header nav.menu-desktop ul li {
   display: none;
 }
 
-/* ESTILO MAIN SECTION */
+/* ESTILO TOPO DO SITE */
 section.topo-site {
   padding: 10rem 4%;
 }
@@ -229,7 +231,7 @@ section.especialidades .flex {
 }
 
 
-/*  ESTILO DO SOBRE */
+/*  ESTILO SOBRE */
 section.sobre {
   padding: 10rem 4%;
 }
@@ -272,7 +274,6 @@ section.sobre .flex {
 
 
 /*  ESTILO PORTFÓLIO */
-
 section.portfolio {
   padding: 10rem 4%;
   box-shadow: 0px 0px 40px 5px #ffffff1a;
@@ -397,8 +398,8 @@ form .btn-enviar input:hover {
   transform: scale(1.08);
 }
 
-/* ESTILO FOOTER */
 
+/* ESTILO FOOTER */
 footer {
   padding: 4rem 4%;
   box-shadow: 0px 0px 40px 5px #ffffff1a;
@@ -431,6 +432,16 @@ footer .line-footer p a {
 
 /* RESPONSIVIDADE */
 @media screen and (max-width:1020px) {
+
+  /* menu mobile */
+  .btn-abrir-menu i {
+    display: flex;
+    padding: 0.75rem;
+  }
+
+  .menu-mobile {
+    display: inline;
+  }
 
   /* menu hamburguer */
   .menu-desktop,
@@ -487,7 +498,7 @@ footer .line-footer p a {
 
   /* ESTILO ESPECIALIDADES */
   section.especialidades {
-    padding: 5rem 8%;
+    padding: 3rem 8%;
   }
 
   /* ESTILO SOBRE */
@@ -511,11 +522,12 @@ footer .line-footer p a {
 
   /* PORTFOLIO */
   section.portfolio {
-    padding: 10rem 8%;
+    padding: 5rem 8%;
   }
 
   section.portfolio .flex {
     gap: 5rem;
+    flex-direction: column-reverse;
   }
 
   .img-port {
@@ -527,7 +539,7 @@ footer .line-footer p a {
 
   /* ESTILO FORMULÁRIO */
   section.formulario {
-    padding: 8rem 8%;
+    padding: 5rem 8%;
   }
 
   /* FOOTER */
