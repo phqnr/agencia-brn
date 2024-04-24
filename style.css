@@ -437,7 +437,16 @@ footer .line-footer p a {
 .box2,
 .box3,
 .img-sobre,
-.txt-sobre {
+.txt-sobre,
+.img-port,
+.port1,
+.port2,
+.port3,
+.nome,
+.email,
+.telefone,
+.mensagem,
+.btn-form {
   visibility: hidden;
 }
 
